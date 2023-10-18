@@ -10,6 +10,7 @@
   "keywords": [],
   "description": "",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "prettier": "^3.0.3"
   }
 }
