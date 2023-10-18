@@ -14,5 +14,9 @@ console.log(eqArrays(["1", "2", "3"], ["1", "2", "3"])) // => true
 console.log(eqArrays(["1", "2", "3"], ["1", "2", 3])) // => false
 
 assertEqual.equal(eqArrays([1, 2, 3], [1, 2, 3]), true)
+assertEqual.equal(eqArrays([1, 2, 3], [3, 2, 1]), false)
+
+assertEqual.equal(eqArrays(["1", "2", "3"], ["1", "2", "3"]), true)
+assertEqual.equal(eqArrays(["1", "2", "3"], ["1", "2", 3]), false)
 
 
