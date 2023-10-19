@@ -12,14 +12,14 @@ const letterPositions = function (sentence) {
     const results = {};
     let idx = 0
     for (let letter of sentence) {
-        if (letter !== ' '){
+        if (letter !== ' ') {
             if (results[letter]) {
                 results[letter].push(idx);
-    
+
             } else {
                 results[letter] = [idx];
             }
-            
+
         }
         idx++
     }
