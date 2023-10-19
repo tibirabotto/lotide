@@ -11,7 +11,7 @@ const assertArraysEqual = function (actual, expected) {
 const letterPositions = function (sentence) {
     const results = {};
     let idx = 0
-    for (letter of sentence) {
+    for (let letter of sentence) {
         if (letter !== ' '){
             if (results[letter]) {
                 results[letter].push(idx);
