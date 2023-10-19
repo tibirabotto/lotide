@@ -10,12 +10,13 @@ const assertEqual = function (actual, expected) {
 
 
 const findKeyByValue = (object, value) => {
-    for (const key in object) {
+    const keys = Object.keys(object);
+    for (const key of keys) {
         if (object[key] === value) {
-          return key;
+            return key;
         }
-      }
-      return undefined;
+    }
+    return undefined;
 }
 
 const bestTVShowsByGenre = {
