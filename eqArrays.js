@@ -20,3 +20,6 @@ assertEqual.equal(eqArrays(["1", "2", "3"], ["1", "2", "3"]), true)
 assertEqual.equal(eqArrays(["1", "2", "3"], ["1", "2", 3]), false)
 
 
+module.exports = eqArrays;
+
+
