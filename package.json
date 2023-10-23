@@ -1,14 +1,14 @@
 {
-  "name": "lotide",
+  "name": " @tibirabotto/lotide",
   "version": "1.0.0",
   "main": "assertEqual.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": "Tibira Botto",
   "license": "ISC",
   "keywords": [],
-  "description": "",
+  "description": "Lighthouse lab bootcamp",
   "dependencies": {
     "lodash": "^4.17.21",
     "prettier": "^3.0.3"
