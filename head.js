@@ -1,5 +1,5 @@
-var assertEqual = require('assert');
 
+const assertEqual = require('./test/assertEqual');
 // FUNCTION IMPLEMENTATION
 const head = function(actual) {
 
@@ -12,7 +12,7 @@ const head = function(actual) {
 };
 
 // TEST CODE
-assertEqual.equal(head([5,6,7]), 5); 
-assertEqual.equal(head(["Hello", "Lighthouse", "Labs"]),  "Hello"); 
-assertEqual.equal(head([]),  undefined)
+assertEqual(head([5,6,7]), 5); 
+assertEqual(head(["Hello", "Lighthouse", "Labs"]),  "Hello"); 
+assertEqual(head([]),  undefined)
 
