@@ -9,3 +9,5 @@ const tail = function(actual) {
 };
 const result = tail(["Hello", "Lighthouse", "Labs"]);
 assertEqual.equal(result.length, 2); 
+
+module.exports = tail;
